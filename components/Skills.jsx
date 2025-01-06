@@ -16,11 +16,20 @@ import Python from '../public/assets/skills/python.png';
 import MongoDB from '../public/assets/skills/mongo.png';
 import TypeScript from '../public/assets/skills/typescript.png';
 import ReactNative from '../public/assets/skills/reactnative.png';
+import Bitcoin from '../public/assets/skills/bitcoin.png';
+import Web3 from '../public/assets/skills/web3.png';
+import Ethereum from '../public/assets/skills/ethereum.png';
+import Kotlin from '../public/assets/skills/kotlin.png';
 import AWS from '../public/assets/skills/aws.png';
+import Java from '../public/assets/skills/java.png';
+import Solidity from '../public/assets/skills/solidity.png';
+import Tron from '../public/assets/skills/tron.png';
+import Webgl from '../public/assets/skills/webgl.png';
+
 import {motion} from "framer-motion";
 const Skills = () => {
   return (
-    <div id='skills' className='w-full lg:h-screen p-2'>
+    <div id='skills' className=''>
       <motion.div 
        initial={{
         opacity: 0,   
@@ -100,6 +109,88 @@ const Skills = () => {
           <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
             <div className='grid grid-cols-2 gap-4 justify-center items-center'>
               <div className='m-auto'>
+                <Image src={Bitcoin} width='64px' height='64px' alt='/' />
+              </div>
+              <div className='flex flex-col items-center justify-center'>
+                <h3>Bitcoin</h3>
+              </div>
+            </div>
+          </div>
+          <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
+            <div className='grid grid-cols-2 gap-4 justify-center items-center'>
+              <div className='m-auto'>
+                <Image src={Java} width='64px' height='64px' alt='/' />
+              </div>
+              <div className='flex flex-col items-center justify-center'>
+                <h3>Java</h3>
+              </div>
+            </div>
+          </div>
+          <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
+            <div className='grid grid-cols-2 gap-4 justify-center items-center'>
+              <div className='m-auto'>
+                <Image src={Kotlin} width='64px' height='64px' alt='/' />
+              </div>
+              <div className='flex flex-col items-center justify-center'>
+                <h3>Kotlin</h3>
+              </div>
+            </div>
+          </div>
+          <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
+            <div className='grid grid-cols-2 gap-4 justify-center items-center'>
+              <div className='m-auto'>
+                <Image src={Ethereum} width='64px' height='64px' alt='/' />
+              </div>
+              <div className='flex flex-col items-center justify-center'>
+                <h3>Ethereum</h3>
+              </div>
+            </div>
+          </div>
+          <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
+            <div className='grid grid-cols-2 gap-4 justify-center items-center'>
+              <div className='m-auto'>
+                <Image src={Solidity} width='64px' height='64px' alt='/' />
+              </div>
+              <div className='flex flex-col items-center justify-center'>
+                <h3>Solidity</h3>
+              </div>
+            </div>
+          </div>
+          <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
+            <div className='grid grid-cols-2 gap-4 justify-center items-center'>
+              <div className='m-auto'>
+                <Image src={Web3} width='64px' height='64px' alt='/' />
+              </div>
+              <div className='flex flex-col items-center justify-center'>
+                <h3>Web3</h3>
+              </div>
+            </div>
+          </div>
+          <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
+            <div className='grid grid-cols-2 gap-4 justify-center items-center'>
+              <div className='m-auto'>
+                <Image src={Tron} width='64px' height='64px' alt='/' />
+              </div>
+              <div className='flex flex-col items-center justify-center'>
+                <h3>Tron</h3>
+              </div>
+            </div>
+          </div>
+          <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
+            <div className='grid grid-cols-2 gap-4 justify-center items-center'>
+              <div className='m-auto'>
+                <Image src={Webgl} width='64px' height='64px' alt='/' />
+              </div>
+              <div className='flex flex-col items-center justify-center'>
+                <h3>Webgl</h3>
+              </div>
+            </div>
+          </div>
+
+
+          <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
+            <div className='grid grid-cols-2 gap-4 justify-center items-center'>
+              <div className='m-auto'>
                 <Image src={Tailwind} width='64px' height='64px' alt='/' />
               </div>
               <div className='flex flex-col items-center justify-center'>
@@ -158,10 +249,6 @@ const Skills = () => {
               </div>
             </div>
           </div>
-          
-          
-          
-          
           <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
             <div className='grid grid-cols-2 gap-4 justify-center items-center'>
               <div className='m-auto'>

@@ -14,7 +14,7 @@ import {motion} from "framer-motion";
 
 const Projects = () => {
   return (
-    <div id='projects' className='w-full'>
+    <div id='projects' className='w-full mt-6'>
       <motion.div 
        initial={{
         opacity: 0,   

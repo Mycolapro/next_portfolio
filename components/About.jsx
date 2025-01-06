@@ -23,21 +23,16 @@ const About = () => {
           </p>
           <h2 className='py-4'>Who I Am</h2>
           <p className='py-2 text-gray-600'>
-          I am a Senior Full Stack Developer with a solid track record in building both web and mobile applications.
-          I work extensively with JavaScript and TypeScript, specializing in frameworks like React, React Native,
-          and Flutter to create responsive user interfaces. On the back end, I have expertise in Node.js,
-          Python (Django/Flask), and Ruby on Rails, allowing me to develop strong server-side solutions.
-          
-          I’m well-versed in managing databases, whether they’re SQL or NoSQL, and I’m comfortable
-          with API integrations using RESTful services and GraphQL. My experience with cloud platforms
-          like AWS and Azure, along with my understanding of DevOps practices, ensures I can handle
-          deployment and scaling effectively.
+          Dynamic and results-driven Senior Full Stack Lead Developer with over 6 years of extensive experience in architecting and delivering innovative web and mobile applications. Proficient in developing robust backend systems using Node.js, Python, and Java, while crafting intuitive frontends with React, Angular, and Vue.js. Adept at utilizing blockchain technologies to enhance decentralized applications, smart contracts, and cryptocurrency integrations. 
           </p>
           <p className='py-2 text-gray-600'>
-          I thrive in collaborative environments and am familiar with agile methodologies, using project
-          management tools like Jira and Trello to keep teams on track. I’m passionate about tackling
-          challenges and using technology to achieve great results, no matter if I am working with
-          a startup or a larger organization.
+          Passionate about code quality and performance optimization, I consistently implement best practices, including TDD and CI/CD pipelines, to ensure seamless deployment and maintainability. Extensive experience in leading cross-functional teams through Agile methodologies, fostering collaboration and driving project milestones to success. 
+          </p>
+          <p className='py-2 text-gray-600'>
+          Skilled in database design and management using both SQL (Postgres, MySQL) and NoSQL (MongoDB, Firebase) technologies, ensuring data integrity and availability for high-traffic applications. Committed to staying updated with emerging technologies and continuously improving skills to foster innovation within projects. My proactive approach to problem-solving allows me to tackle complex challenges head-on, delivering impactful solutions that exceed client expectations. 
+          </p>
+          <p className='py-2 text-gray-600'>
+          Eager to leverage my expertise in both development and leadership to contribute to a forward-thinking organization that values creativity and technical excellence.
           </p>
           <Link href='/#projects'>
             <p className='py-2 text-gray-600 underline cursor-pointer'>
